@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?rn7mm7');
+  src:  url('fonts/icomoon.eot?rn7mm7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?rn7mm7') format('truetype'),
+    url('fonts/icomoon.woff?rn7mm7') format('woff'),
+    url('fonts/icomoon.svg?rn7mm7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i[class^="icon-"], i[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bomberos:before {
+  content: "\e900";
+  color: #030e9e;
+}
+
+.icon-call-center:before {
+  content: "\e901";
+  color: #030e9e;
+}
+.icon-user:before {
+  content: "\e902";
+  color: #030e9e;
+}
